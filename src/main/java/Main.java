@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Parent obj = new ClassC();
+
         if (obj instanceof ClassC) {
             ClassC obj2 = (ClassC) obj;
             obj2.printBye();

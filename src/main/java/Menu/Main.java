@@ -15,7 +15,22 @@ public class Main {
 class Controller1 implements Controller {
     @Override
     public void execute() {
-        System.out.println("FIRST OPTION OF MENU");
+        Menu subMenu = new Menu();
+        Controller controller1 = () -> firstOption(); // Lambda expression
+        Controller controller2 = this::secondOption; // Method reference
+        controller2.execute();
+        subMenu.addMenuItem(1, new MenuItem("FIRST SUB OPTION", controller1));
+        subMenu.addMenuItem(2, new MenuItem("SECOND SUB OPTION", controller2));
+
+        subMenu.display();
+    }
+
+    public void secondOption() {
+        System.out.println("SECOND OPTION OF SUBMENU");
+    }
+
+    public void firstOption() {
+        System.out.println("FIRST OPTION OF SUBMENU");
     }
 }
 
