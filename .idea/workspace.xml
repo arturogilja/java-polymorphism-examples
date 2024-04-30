@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3aacb5-963e-4267-b0f9-09467bc0443d" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConsoleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lists/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lists/MyList.java" afterDir="false" />
+    <list default="true" id="ba3aacb5-963e-4267-b0f9-09467bc0443d" name="Changes" comment="Add lambdas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConsoleReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalExample.executor": "Run",
-    "Application.ConsoleReader.executor": "Run",
-    "Application.InterfaceExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsoleReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ConsoleReader">
+}</component>
+  <component name="RunManager" selected="Application.Functions">
     <configuration name="ConsoleReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsoleReader" />
+      <module name="Polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functions" />
       <module name="Polymorphism" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Functions" />
         <item itemvalue="Application.ConsoleReader" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfaceExample" />
@@ -138,6 +143,10 @@
       <workItem from="1713971873185" duration="930000" />
       <workItem from="1713973686519" duration="643000" />
       <workItem from="1714144841020" duration="2255000" />
+      <workItem from="1714203336498" duration="449000" />
+      <workItem from="1714261462797" duration="6000" />
+      <workItem from="1714403796140" duration="2651000" />
+      <workItem from="1714490744800" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -147,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713542196106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add lambdas">
+      <option name="closed" value="true" />
+      <created>1714203548183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714203548183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add lambdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lambdas" />
   </component>
 </project>

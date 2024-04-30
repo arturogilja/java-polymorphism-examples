@@ -7,7 +7,7 @@ public class ConsoleReader {
         int value = reader.readInt("GIVE ME A POSITIVE NUMBER", isPositive);
         System.out.println("NUMBER: " + value);
     }
-
+    
     Scanner scanner = new Scanner(System.in);
     public int readInt(String prompt) {
         System.out.print(prompt + ": ");
